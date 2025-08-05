@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/re.bootstrap.css" rel="stylesheet" />
+    <link href="/css/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="/css/common.css" rel="stylesheet" />
+    <link href="/css/guid.css" rel="stylesheet" />
+    <link href="/css/content.css" rel="stylesheet" />
+    <link href="/css/mediaquery.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/content.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <script>
+      history.scrollRestoration = "manual";
+    </script>
+  </head>
+
+  <!-- 3depth헤더 일때 Depth3_Header Sub_Header 추가 -->
+  <!-- 바닥에 여백 36px 추가하고싶으면 class="Depth" 추가 -->
+  <body class="LightMode Depth3_Header Sub_Header Depth">
+    <!-- header -->
+    <header id="header">
+      <div class="header_inner color-border-01">
+        <div class="swiper-slide wrapper">
+          <div class="left">
+            <div class="logo text_overflow">
+              <a href="/index.html"></a>
+              <span class="color-txt-normal title-02-b title">페이지제목</span>
+            </div>
+            <ul class="gnb">
+              <li class="home">
+                <a href="/index.html">
+                  <p class="gnb_list white-always btn-04 txt">추천</p>
+                </a>
+              </li>
+              <li class="novel">
+                <a href="/novel">
+                  <p class="gnb_list white-always btn-04 txt">웹소설</p>
+                </a>
+              </li>
+              <li class="toon">
+                <a href="/toon">
+                  <p class="gnb_list white-always btn-04 txt">웹툰</p>
+                </a>
+              </li>
+              <li class="gift">
+                <a href="/gift">
+                  <p class="gnb_list white-always btn-04 txt">선물함</p>
+                </a>
+              </li>
+              <li class="storage">
+                <a href="/storage">
+                  <p class="gnb_list white-always btn-04 txt">보관함</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="btns right">
+            <a href="" target="_blank">
+              <p class="factory">작가홈</p>
+            </a>
+            <a href="/order" id="orderLink">
+              <p class="charge">충전</p>
+            </a>
+            <a href="/search">
+              <p class="search">검색</p>
+            </a>
+            <a href="/mypage">
+              <p class="mypage">
+                <span class="dot color-btn-01 bg radius-full"></span>
+                마이페이지
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- //header -->
+
+    <!-- 서브메뉴 -->
+    <div id="navMenu" class="color-bg-01 title_header">
+      <div class="title_menu wrapper">
+        <div class="btns left_btns">
+          <button
+            type="button"
+            class="prev_btn"
+            onClick="history.back()"
+          ></button>
+        </div>
+        <div class="title-04 color-txt-normal text_overflow">결제내역</div>
+        <div class="btns right_btns"></div>
+      </div>
+    </div>
+    <!-- //서브메뉴 -->
+
+    <!-- container -->
+    <div id="container">
+      <section class="payBox wrapper">
+        <div class="list_box section">
+          <ul class="pay_list">
+            <li>
+              <p class="s_tit body-02 color-txt-muted">결제 내용</p>
+              <p class="desc body-04-long color-txt-normal">일반충전</p>
+            </li>
+            <li>
+              <p class="s_tit body-02 color-txt-muted">주문 번호</p>
+              <p class="desc body-04-long color-txt-normal">
+                mMIDJFL19EI9F95D12DF12DF
+              </p>
+            </li>
+            <li>
+              <p class="s_tit body-02 color-txt-muted">상품 가격</p>
+              <p class="desc body-04-long color-txt-normal">39,800원</p>
+            </li>
+            <li>
+              <p class="s_tit body-02 color-txt-muted">충전 쿠폰</p>
+              <p class="desc body-04-long color-txt-normal">390개</p>
+            </li>
+            <li>
+              <p class="s_tit body-02 color-txt-muted">추가 쿠폰</p>
+              <p class="desc body-04-long color-txt-normal">8개</p>
+            </li>
+            <li>
+              <p class="s_tit body-02 color-txt-muted">결제 수단</p>
+              <p class="desc body-04-long color-txt-normal">인앱결제(Apple)</p>
+            </li>
+            <li>
+              <p class="s_tit body-02 color-txt-muted">승인 번호</p>
+              <p class="desc body-04-long color-txt-normal">
+                djWjrnwjKWJCKDKRNLWKEJVLVKIKLDP3
+              </p>
+            </li>
+            <li>
+              <p class="s_tit body-02 color-txt-muted">결제 일시</p>
+              <p class="desc body-04-long color-txt-normal">
+                2023.09.01 17:58:08
+              </p>
+            </li>
+          </ul>
+          <!-- 환불내역-->
+          <ul class="refund_list radius-sm color-bg-02">
+            <li>
+              <p class="s_tit body-02 color-state-danger txt">환불 금액</p>
+              <p class="desc title-02-b-long color-txt-normal">39,800원</p>
+            </li>
+            <li>
+              <p class="s_tit body-02 color-state-danger txt">충전 취소 쿠폰</p>
+              <p class="desc title-02-b-long color-txt-normal">398개</p>
+            </li>
+            <li>
+              <p class="s_tit body-02 color-state-danger txt">환불일</p>
+              <p class="desc title-02-b-long color-txt-normal">
+                2023.10.24 17:58:08
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="button_box section">
+          <button
+            type="button"
+            onclick="location.href='/mypage/coupon.html';"
+            class="button btn_01 filled radius-full label_on large"
+          >
+            확인하고 뒤로가기
+          </button>
+        </div>
+        <!-- 정기충전, 스마트충전 결제일때 해지신청 버튼 나오게-->
+        <!-- <div class="request_box section">
+                <div class="left">
+                    <p class="title title-02-b-long color-txt-normal">해지 신청</p>
+                </div>
+                <div class="right">
+                    <button type="button" class="button btn_01 medium label_on outlined radius-full"><span class="btn-03 color-btn-01 txt">신청하기</span></button>
+                </div>
+            </div> -->
+        <div class="info_txt_box section">
+          <p class="title title-02-b color-txt-04">안내</p>
+          <!-- 안내사항 -->
+          <ul class="desc_list body-02-long color-txt-05">
+            <li>
+              신용카드, 계좌이체 결제 취소 : 영업일 기준 3~5일이 소요됩니다.
+            </li>
+            <li>휴대폰 결제 취소 : 당월 결제 취소만 가능합니다.</li>
+            <li>
+              Google Play 앱 내 결제로 충전한 쿠폰은 결제일로부터 7일 이내
+              고객센터에서 환불이 가능합니다.
+            </li>
+            <li>
+              앱 스토어에서 결제하신 경우, 애플 정책에 의해 결제 정보가 제공되지
+              않아 구매 확인 후 애플 측으로 직접 환불을 요청해 주셔야 합니다.
+            </li>
+            <li>
+              쿠폰에 관련하여 궁금하신 점은
+              <span class="color-txt-03">고객센터 > FAQ</span>를 참고해 주세요.
+            </li>
+          </ul>
+          <!-- 정기충전일때 안내사항 -->
+          <!-- <ul class="desc_list body-02-long color-txt-05">
+                    <li>구매일로부터 1개월마다 이용권 금액이 설정된 결제수단(휴대폰/신용카드)으로 자동결제됩니다.</li>
+                    <li>결제하신 북팔 쿠폰의 일부를 사용하시면 결제를 취소할 수 없습니다.</li>
+                    <li>정기충전 해지가 완료되어도 결제된 내역 자동으로 환불 되지 않습니다. 환불 요청 시, 결제 관련 공지를 확인해 주시기 바랍니다.</li>
+                    <li>정기충전  신청 후 14일 이후에 자동 결제 해지가 가능합니다.</li>
+                    <li>결제 예정일 전날과 예정일에는 자동 결제 해지가 불가합니다.</li>
+                    <li>회사 사정에 따라 추가 쿠폰은 변경, 중단될 수 있습니다.</li>
+                </ul> -->
+          <!-- 스마트충전일때 안내사항 -->
+          <!-- <ul class="desc_list body-02-long color-txt-05">
+                    <li>신청 즉시 결제되며, 보유 쿠폰이 설정한 개수 미만일 경우 자동 충전됩니다.</li>
+                    <li>회사 사정에 따라 추가쿠폰은 변경, 중단 될 수 있습니다.</li>
+                    <li>결제하신 북팔 쿠폰의 일부를 사용하시면 결제를 취소할 수 없습니다.</li>
+                </ul> -->
+        </div>
+      </section>
+    </div>
+    <!-- container -->
+
+    <!-- footer -->
+    <footer id="footer" class="wrapper">
+      <div class="area_box swiper-slide">
+        <div class="left">
+          <div class="info">
+            <button type="button" class="color-txt-03 btn-03">
+              (주) 북팔 사업자정보
+            </button>
+            <div class="txt_box color-txt-04 body-01-long">
+              서울특별시 영등포구 국회대로70길 23 , 용산빌딩 7층 (여의도동)<br />
+              대표이사 : 김석환 | 사업자등록번호 : 214-88-74813 | 통신판매업신고
+              :
+              <a
+                href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2148874813"
+                target="_blank"
+                >제2022-서울영등포-1421호</a
+              ><br />
+              개인정보관리책임자 : 최성민
+              <a href="mailto:bookpal@bookpal.co.kr">bookpal@bookpal.co.kr</a>
+            </div>
+          </div>
+          <p class="copyright btn-01 color-txt-muted">
+            Copyright ⓒ BOOKPAL CO., LTD. All Rights Reserverd.
+          </p>
+          <ul class="menu_links">
+            <li class="color-txt-muted btn-02">
+              <a href="/help/index.html">고객센터</a>
+            </li>
+            <li class="color-txt-muted btn-02">
+              <a href="/help/terms.html">이용약관</a>
+            </li>
+            <li class="color-txt-muted btn-02-active">
+              <a href="/help/terms.html">개인정보처리방침</a>
+            </li>
+            <li class="color-txt-muted btn-02">
+              <a href="/help/terms.html">청소년 보호정책</a>
+            </li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul class="sns_link">
+            <li class="color-bg-02 radius-full blog">
+              <a
+                href="https://blog.naver.com/bookpalbooks"
+                target="_blank"
+                class="button btn_03 large label_off round on radius-full"
+                ><span>블로그</span></a
+              >
+            </li>
+            <li class="color-bg-02 radius-full twitter">
+              <a
+                href="https://twitter.com/bookpalkorea"
+                target="_blank"
+                class="button btn_03 large label_off round on radius-full"
+                ><span>트위터</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- //footer -->
+
+    <!-- top_btn -->
+    <aside id="top_btn">
+      <button
+        type="button"
+        class="radius-full color-border-01 border-line color-bg-01 box-shadow-lg border-soild"
+      >
+        <span>Top</span>
+      </button>
+    </aside>
+    <!-- //top_btn -->
+
+    <!-- 텍스트 토스트 -->
+    <div class="toast message_toast black_opacity-80 bg radius-xs">
+      <div class="toast-body">
+        <div class="area">
+          <p class="text color-btn-02-txt body-02-long">
+            <span>정기충전</span> 해지가 완료되었습니다.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

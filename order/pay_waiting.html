@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title></title>
+
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/re.bootstrap.css" rel="stylesheet" />
+    <link href="/css/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="/css/common.css" rel="stylesheet" />
+    <link href="/css/guid.css" rel="stylesheet" />
+    <link href="/css/content.css" rel="stylesheet" />
+
+    <link href="/css/mediaquery.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/content.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <script>
+      history.scrollRestoration = "manual";
+    </script>
+  </head>
+
+  <body class="LightMode">
+    <!-- 충전 헤더 -->
+    <div id="TopHeader" class="color-bg-01 title_header">
+      <div class="title_menu wrapper">
+        <div class="btns left_btns"></div>
+        <div class="title-04 color-txt-normal text_overflow">결제</div>
+        <div class="btns right_btns"></div>
+      </div>
+    </div>
+
+    <div id="container" class="s_wrap wrapper">
+      <section
+        class="area_box color-bg-01 radius-lg color-border-01 border-soild border-line"
+      >
+        <div class="infoBox">
+          <img src="/order/images/waiting.png" />
+          <p class="title title-02-b-long color-txt-normal">결제 대기중...</p>
+          <!-- 간편결제 일때 -->
+          <!-- <p class="desc body-03-long color-txt-normal">선택하신 결제 방법으로<br>결제를 진행해주세요. </p> -->
+          <!-- 일반결제 일때 -->
+          <p class="desc body-03-long color-txt-normal">
+            선택하신 결제 방법이 노출되지 않는다면<br />아래 버튼을
+            클릭해주세요.
+          </p>
+          <button
+            type="button"
+            class="button btn_01 large label_on outlined radius-sm color-btn-01 txt btn-04"
+          >
+            돌아가기
+          </button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title></title>
+
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/re.bootstrap.css" rel="stylesheet" />
+    <link href="/css/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="/css/common.css" rel="stylesheet" />
+    <link href="/css/guid.css" rel="stylesheet" />
+    <link href="/css/content.css" rel="stylesheet" />
+
+    <link href="/css/mediaquery.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/content.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <script>
+      history.scrollRestoration = "manual";
+    </script>
+  </head>
+
+  <body class="LightMode">
+    <!-- 충전 헤더 -->
+    <div id="TopHeader" class="color-bg-01 title_header">
+      <div class="title_menu wrapper">
+        <div class="btns left_btns"></div>
+        <div class="title-04 color-txt-normal text_overflow">결제 완료</div>
+        <div class="btns right_btns"></div>
+      </div>
+    </div>
+
+    <div id="container" class="s_wrap wrapper">
+      <section
+        class="area_box color-bg-01 radius-lg color-border-01 border-soild border-line"
+      >
+        <div class="complete_box">
+          <p class="title title-03 color-txt-normal">
+            <!-- 일반충전 완료일때 -->
+            <span>주문하신 결제가</span> 완료되었습니다.
+            <!-- 정기충전 완료일때 -->
+            <!-- <span>정기충전 신청이</span> 완료되었습니다. -->
+            <!-- 스마트충전 완료일때 -->
+            <!-- <span>스마트충전 신청이</span> 완료되었습니다. -->
+          </p>
+          <ul class="desc_box section">
+            <li>
+              <p class="s_title body-02 color-txt-muted">결제 내용</p>
+              <p class="s_desc body-04-long color-txt-normal">일반충전</p>
+            </li>
+            <li>
+              <p class="s_title body-02 color-txt-muted">주문 번호</p>
+              <p class="s_desc body-04-long color-txt-normal">
+                mMIDJFL19EI9F95D12DF12DF
+              </p>
+            </li>
+            <li>
+              <p class="s_title body-02 color-txt-muted">상품 가격</p>
+              <p class="s_desc body-04-long color-txt-normal">10,000원</p>
+            </li>
+            <li>
+              <p class="s_title body-02 color-txt-muted">충전 쿠폰</p>
+              <p class="s_desc body-04-long color-txt-normal">100개</p>
+            </li>
+            <li>
+              <p class="s_title body-02 color-txt-muted">추가 쿠폰</p>
+              <p class="s_desc body-04-long color-txt-normal">8개</p>
+            </li>
+            <li>
+              <p class="s_title body-02 color-txt-muted">결제 수단</p>
+              <p class="s_desc body-04-long color-txt-normal">네이버페이</p>
+            </li>
+            <li>
+              <p class="s_title body-02 color-txt-muted">승인 번호</p>
+              <p class="s_desc body-04-long color-txt-normal">
+                djWjrnwjKWJCKDKRNLWKEJVLVKIKLDP3
+              </p>
+            </li>
+          </ul>
+          <p class="benefits_img section">
+            <img src="/order/images/img_vip_notice.png" />
+          </p>
+          <div class="button_box section">
+            <button
+              type="button"
+              class="button btn_01 outlined label_on large btn-04 color-btn-01 txt radius-sm"
+            >
+              돌아가기
+            </button>
+          </div>
+          <!-- 정기충전, 스마트충전 완료일때만 뜨기 -->
+          <p class="section desc_tit body-03-long color-txt-05">
+            <span>정기결제</span> 해지를 원하실 경우<br />쿠폰내역>충전내역을
+            클릭해주세요.
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
